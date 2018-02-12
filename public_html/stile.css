@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-feb-2018, 11.26.34
+    Author     : Nachos
+*/
+#blocco_superiore{
+       height:30%;
+       width:99%;
+       position:absolute;
+       opacity:1;
+       border: solid px;
+}
+#blocco_centrale {
+   
+   height:55%;
+   width: 80%;
+   border: solid px black;
+   position:absolute;
+   left:5%;
+   top:35%;
+  opacity:1;
+}
+#blocco_laterale{
+  border:solid 1px;
+  height:95%;
+  width:10%;
+  position:absolute;
+  right:3%;
+  top:3%;
+  
+}
+.riquadro {
+  border: solid 1px black;
+  border-radius: 5px;
+  display:inline-block;}
+.immagine{
+  border: solid 1px black;
+  border-radius: 5px;
+  display:inline-block;
+  position:relative;
+  top:5%;
+  left:1%;
+  height:80%;
+  width:60%;
+}             
+#contatti {
+  position: absolute;
+  bottom: 2%;
+  left:25%;
+  height:2em;
+  padding:5px;
+  opacity:1;
+}           
+#calendario {
+  top:5%;
+  width:20%;
+  height:80%;
+  position:relative;
+  left:5%;
+  
+}            
+#menu{
+  height:3em;
+  position:relative;
+  width:80%;
+  left:5%;
+  top:8%;
+  
+}
+#menu div{
+  border: solid 1px;
+  padding:3px;
+  position:relative;
+  top:30%;
+  left:5%;
+  display: inline;
+  text-align: center;
+  margin-left:8%;
+  
+}
+#info,#eventi,#vendite{
+  position: relative;
+  top:2%;
+  left:1%;
+  height:29%;
+  width:97%; 
+ padding:5px;
+}
+#descrizione{
+  padding:6px;
+  position:relative;
+  top:5%;
+  left:1%;
+  height:80%;
+  width:37%
+  
+}
+.colonna{
+  border: solid 1px black;
+  border-radius: 5px;
+  display:inline-block;
+  padding: 5px;
+  height:90%;
+  width:48%  
+}
+
